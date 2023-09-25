@@ -42,7 +42,7 @@
             this.btnNueve = new System.Windows.Forms.Button();
             this.btnSeis = new System.Windows.Forms.Button();
             this.btnTres = new System.Windows.Forms.Button();
-            this.btnPunto = new System.Windows.Forms.Button();
+            this.btnComa = new System.Windows.Forms.Button();
             this.btnBorrarIndividual = new System.Windows.Forms.Button();
             this.btnDivision = new System.Windows.Forms.Button();
             this.btnSuma = new System.Windows.Forms.Button();
@@ -272,23 +272,23 @@
             this.btnTres.UseVisualStyleBackColor = false;
             this.btnTres.Click += new System.EventHandler(this.agregarNumeros);
             // 
-            // btnPunto
+            // btnComa
             // 
-            this.btnPunto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.btnPunto.FlatAppearance.BorderColor = System.Drawing.Color.Teal;
-            this.btnPunto.FlatAppearance.BorderSize = 3;
-            this.btnPunto.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.btnPunto.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Cyan;
-            this.btnPunto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPunto.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPunto.Location = new System.Drawing.Point(12, 345);
-            this.btnPunto.Name = "btnPunto";
-            this.btnPunto.Size = new System.Drawing.Size(60, 45);
-            this.btnPunto.TabIndex = 12;
-            this.btnPunto.Tag = ",";
-            this.btnPunto.Text = ",";
-            this.btnPunto.UseVisualStyleBackColor = false;
-            this.btnPunto.Click += new System.EventHandler(this.btnPunto_Click);
+            this.btnComa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btnComa.FlatAppearance.BorderColor = System.Drawing.Color.Teal;
+            this.btnComa.FlatAppearance.BorderSize = 3;
+            this.btnComa.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btnComa.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Cyan;
+            this.btnComa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnComa.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnComa.Location = new System.Drawing.Point(12, 345);
+            this.btnComa.Name = "btnComa";
+            this.btnComa.Size = new System.Drawing.Size(60, 45);
+            this.btnComa.TabIndex = 12;
+            this.btnComa.Tag = ",";
+            this.btnComa.Text = ",";
+            this.btnComa.UseVisualStyleBackColor = false;
+            this.btnComa.Click += new System.EventHandler(this.btnComa_Click);
             // 
             // btnBorrarIndividual
             // 
@@ -486,7 +486,7 @@
             this.Controls.Add(this.btnNueve);
             this.Controls.Add(this.btnSeis);
             this.Controls.Add(this.btnTres);
-            this.Controls.Add(this.btnPunto);
+            this.Controls.Add(this.btnComa);
             this.Controls.Add(this.btnBorrarIndividual);
             this.Controls.Add(this.btnOcho);
             this.Controls.Add(this.btnCinco);
@@ -526,7 +526,7 @@
         private System.Windows.Forms.Button btnNueve;
         private System.Windows.Forms.Button btnSeis;
         private System.Windows.Forms.Button btnTres;
-        private System.Windows.Forms.Button btnPunto;
+        private System.Windows.Forms.Button btnComa;
         private System.Windows.Forms.Button btnBorrarIndividual;
         private System.Windows.Forms.Button btnDivision;
         private System.Windows.Forms.Button btnSuma;

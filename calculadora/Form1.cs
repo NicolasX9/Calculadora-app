@@ -120,9 +120,9 @@ namespace calculadora
             txtResultado.Text = "0";
         }
 
-        private void btnPunto_Click(object sender, EventArgs e)
+        private void btnComa_Click(object sender, EventArgs e)
         {
-            if (!txtResultado.Text.Contains("."))
+            if (!txtResultado.Text.Contains(","))
             {
                 txtResultado.Text += ",";
             }
